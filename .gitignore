@@ -135,6 +135,9 @@ pip-selfcheck.json
 
 ### Mis Configuraciones ###
 .env/
+.idea/
 .vscode/
 *.pyc
 db.sqlite3
+*.bak
+*.zip
