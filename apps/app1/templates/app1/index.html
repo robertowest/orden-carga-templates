@@ -1,11 +1,12 @@
 {% extends 'comunes/base.html' %}
 
-
-{% block sidebar2 %}
-    {% include 'includes/_sidebar.html' %}
+{% block sidebar %}
+    {% include './includes/_sidebar.html' %}
 {% endblock %}
 
-{# block navbar #}
+{% block navbar %}
+    {% include './includes/_navbar.html' %}
+{% endblock %}
 
 {% block content %}
 <p>/proyecto/apps/app1/templates/app1/index.html</p>
